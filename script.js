@@ -64,6 +64,7 @@ var Game = {
     },
 }
 
+// audio for game still working on it
 var sfx = {
     background: new Audio(''),
      hit: new Audio('sounds/hit.mp3'),
@@ -74,3 +75,24 @@ var sfx = {
     
 
 }
+
+ endGameMenu: function (text) {
+  
+        Pong.context.font = '45px Courier New';
+        Pong.context.fillStyle = this.color;
+ 
+  
+        Pong.context.fillRect(
+            Pong.canvas.width / 2 - 350,
+            Pong.canvas.height / 2 - 48,
+            700,
+            100
+        );
+ 
+        Pong.context.fillStyle = '#ffffff';
+ 
+    
+        Pong.context.fillText(text,
+            Pong.canvas.width / 2,
+            Pong.canvas.height / 2 + 15
+        );
