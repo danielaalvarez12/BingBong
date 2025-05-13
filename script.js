@@ -115,3 +115,6 @@ menu: function () {
             this.canvas.height / 2 + 15
         );
     },
+<audio id="background-music" loop>
+        <source src="/Users/danielaalvarez/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/chill-lofi-316579.mp3" type="audio/mp3">
+    </audio>
