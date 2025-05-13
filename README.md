@@ -1,6 +1,7 @@
 # BingBong
 
-ChatGPT 
-Google 
-YouTube
-Code Websites
+ChatGPT,
+Lecture Notes from CPSC 2100,
+Google,
+YouTube,
+Coding Websites,
